@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Sekolah Pranata Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="inde.html"><img src="./images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="prodi.html">PRODI</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">KONTAK</a></li>
+          </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Prodi</h1>
+    </section>
+
+    <!-- untuk prodi -->
+    <section class="prodi">
+      <h1>Prodi</h1>
+      <p>
+        kesatuan rencana belajar yang digunakan sebagai pedoman <br />
+        jalannya pendidikan akademik yang penyelenggaraannya <br />
+        berdasarkan suatu kurikulum
+      </p>
+      <div class="row">
+        <div class="prodi-col">
+          <h3>D3 Komputerisasi Akuntansi</h3>
+          <p>
+            “ Pada tahun 2025 Menjadi program studi unggulan di bidang
+            Komputerisasi Akuntansi untuk menghasilkan lulusan Komputerisasi
+            Akuntansi yang berbasis IT dan memiliki landasan pancasila dan
+            Amaliah pada tingkat Jawa Barat.”
+          </p>
+        </div>
+
+        <div class="prodi-col">
+          <h3>D3 Manajemen Informatika</h3>
+          <p>
+            “ Pada tahun 2027 Menjadi program studi unggul di bidang informatika
+            untuk menghasilkan lulusan Manajemen Informatika yang berbasis IT
+            dan memiliki landasan pancasila dan amaliah.”
+          </p>
+        </div>
+
+        <div class="prodi-col">
+          <h3>S1 Sistem Informasi</h3>
+          <p>
+            “Terwujudnya program studi unggulan bidang Sistem Informasi Bisnis
+            dalam menghasilkan lulusan berbasis Teknologi Informasi yang
+            berorientasi pada Tridharma Perguruan tinggi pada tingkat Jawa Barat
+            Tahun 2027”.
+          </p>
+        </div>
+
+        <div class="prodi-col">
+          <h3>S1 Teknik Informatika</h3>
+          <p>
+            “Terwujudnya Program Studi yang Unggul di bidang Software Enginering
+            di wilayah Jawa Barat pada tahun 2025.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fasilitas -->
+    <!-- untuk fasilitas -->
+
+    <section class="facilities">
+      <h1>Fasilitas</h1>
+      <p>Fasilitas STMIK Pranata</p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="./images/fasilitas.png" />
+          <h3>Fasilitas Pranata</h3>
+          <p>
+            Sekolah Tinggi Manajemen Informatika Dan Komputer <br />
+            STMIK Pranata Indonesia
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="./images/fasilitas.png" />
+          <h3>Fasilitas Pranata</h3>
+          <p>
+            Sekolah Tinggi Manajemen Informatika Dan Komputer <br />
+            STMIK Pranata Indonesia
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="./images/fasilitas.png" />
+          <h3>Fasilitas Pranata</h3>
+          <p>
+            Sekolah Tinggi Manajemen Informatika Dan Komputer <br />
+            STMIK Pranata Indonesia
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="./images/fasilitas.png" />
+          <h3>Fasilitas Pranata</h3>
+          <p>
+            Sekolah Tinggi Manajemen Informatika Dan Komputer <br />
+            STMIK Pranata Indonesia
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- untuk footer -->
+    <section class="footer">
+      <h4>Tentang Kami</h4>
+      <p>
+        Website ini berisi informasi yang dapat membantu masyarakatdan <br />
+        civitas akademika STMIK Pranata Indonesiadalam mengikuti proses <br />
+        pendidikan di almamater tercinta ini, selainitu pada websiate <br />
+        ini juga terdapat informasi-informasi yang berguna dan <br />
+        yang perlu diketahui oleh para dosen, mahasiswasebagai
+        <br />
+        sub sistem pendidikan tinggi di STMIK PranataIndonesia, <br />
+        sehingga diharapkan dapat menumbuhkan <br />
+        rasa kebersamaan,solidaritas, dedikasi dan <br />loyalitas terhadap
+        almamater.
+      </p>
+      <div class="icons">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <p>
+        Copyright © 2022 <i class="fa fa-heart"></i> STMIK Pranata Indonesia
+      </p>
+    </section>
+    <!-- untuk java scrip menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

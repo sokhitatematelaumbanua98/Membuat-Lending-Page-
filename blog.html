@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Sekolah Pranata Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="inde.html"><img src="./images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="prodi.html">PRODI</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">KONTAK</a></li>
+          </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Program Online Kami Untuk Tahun 2019</h1>
+    </section>
+    <!-- untuk kontent blog -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./images/foto2.jpg" />
+          <h2>Program Online Kami Untuk Tahun 2019</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A illum
+            aliquid ratione amet voluptas magnam, vel consectetur, accusamus, odio
+            obcaecati sequi necessitatibus nobis porro? Vitae ratione libero
+            doloribus facilis quos!
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt eum recusandae, quisquam id cupiditate explicabo. Obcaecati excepturi quas beatae neque placeat eum, quidem voluptas voluptatem qui fugiat natus tempora eveniet, veniam voluptates quod adipisci, ipsam voluptatum doloremque fugit perspiciatis ab alias reiciendis totam. Et unde culpa est nobis omnis ex eveniet in laboriosam quo inventore necessitatibus hic velit, rem delectus, ratione quia cupiditate sunt ab dolorem sequi vero non repudiandae ut harum. Est ad libero eaque ex voluptatibus, sint unde, voluptatum, dicta dolores vel asperiores! Cumque, dolor minima fugit quas iure porro qui aspernatur recusandae ad autem similique delectus!</p>
+            <br>
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eos fuga alias rem eum laudantium, natus iste laboriosam ipsam culpa ipsum autem ad? Soluta consequuntur veniam excepturi neque quidem iure debitis facere culpa repellat et dolorem cumque necessitatibus ipsum atque enim, fuga at quaerat? Voluptas quam voluptates adipisci et modi!</p>
+       
+          <div class="comment-box">
+            <h3>Komentar</h3>
+            <from class="comment-form">
+  
+              <input type="text" placeholder="Nama">
+              <input type="email" placeholder="Email">
+              <textarea rows="5" placeholder="koment"></textarea>
+              <button type="submit" class="hero-btn red-btn">Kirim</button>
+            </from>
+          </div>
+        </div>
+  
+        <div class="blog-right">
+          <h3>Kategori Posting</h3>
+          <div>
+            <span>Sistem Informasi</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informasi</span>
+            <span>2019</span>
+          </div> <div>
+            <span>Sistem Informasi</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informatika</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informatika</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informatika</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informatika</span>
+            <span>2019</span>
+          </div>
+          <div>
+            <span>Sistem Informatika</span>
+            <span>2019</span>
+          </div>
+        </div>
+      </div>
+
+   
+    </section>
+
+    <!-- untuk footer -->
+    <section class="footer">
+      <h4>Tentang Kami</h4>
+      <p>
+        Website ini berisi informasi yang dapat membantu masyarakatdan <br />
+        civitas akademika STMIK Pranata Indonesiadalam mengikuti proses <br />
+        pendidikan di almamater tercinta ini, selainitu pada websiate <br />
+        ini juga terdapat informasi-informasi yang berguna dan <br />
+        yang perlu diketahui oleh para dosen, mahasiswasebagai
+        <br />
+        sub sistem pendidikan tinggi di STMIK PranataIndonesia, <br />
+        sehingga diharapkan dapat menumbuhkan <br />
+        rasa kebersamaan,solidaritas, dedikasi dan <br />loyalitas terhadap
+        almamater.
+
+       
+      </p>
+      <div class="icons">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <p>
+        Copyright © 2022 <i class="fa fa-heart"></i> STMIK Pranata Indonesia
+      </p>
+    </section>
+    <!-- untuk java scrip menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
